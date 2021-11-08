@@ -1,6 +1,6 @@
 <template>
   <!--HERO START-->
-  <div id="hero-section" class="row">
+  <div id="hero-section" class="row container">
     <div class="col-md-6">
       <h1>A home is built with love and dreams</h1>
       <h2>Real estate farm that makes your dreams true</h2>

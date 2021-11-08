@@ -1,6 +1,6 @@
 <template>
   <!--ABOUT START-->
-  <div id="about-section" class="row">
+  <div id="about-section" class="row container">
     <div class="col-md-6 about-left">
       <img src="../assets/img/left-bg.png" alt="" class="img-fluid" />
     </div>

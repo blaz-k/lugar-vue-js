@@ -1,6 +1,6 @@
 <template>
   <!--FOOTER START-->
-  <div id="footer-section">
+  <div id="footer-section" class="container">
     <footer class="row py-5 my-5 border-top">
       <div class="col">
         <a

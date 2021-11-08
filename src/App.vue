@@ -1,4 +1,4 @@
-<template>
+<template >
   <Navbar />
   <Hero />
   <About />
@@ -34,5 +34,6 @@ export default {
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  max-width: 98%;
 }
 </style>

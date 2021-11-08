@@ -1,6 +1,6 @@
 <template>
   <!--ONGIOING PROJECTS START-->
-  <div id="ongoing-projects">
+  <div id="ongoing-projects" class="container">
     <div class="card-group">
       <div class="card one">
         <img src="../assets/img/Card-1.png" class="card-img-top" alt="..." />

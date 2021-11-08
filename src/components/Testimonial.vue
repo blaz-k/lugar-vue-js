@@ -1,6 +1,6 @@
 <template>
   <!--TESTIMONIAL START-->
-  <div id="testimonial-section">
+  <div id="testimonial-section" class="container">
     <div id="testimonial-header">
       <h1>Few smiles and comment</h1>
       <h3>Turpis facilisis tempor pulvinar in lobortis ornare magna.</h3>
