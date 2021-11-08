@@ -1,0 +1,599 @@
+body {
+  font-family: Mulish;
+  color: #1e3240;
+}
+
+.container {
+  max-width: 78%;
+}
+
+/* NAVBAR */
+
+.container {
+  background-color: white;
+}
+#nav-bar::before {
+  content: "";
+  background-color: #afd4e2;
+  position: absolute;
+  height: 115%;
+  width: 199vw;
+  left: -100vw;
+  z-index: -1;
+}
+.my-title {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #1e3240;
+  position: relative;
+  display: grid;
+}
+
+#nav-bar {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #1e3240;
+}
+
+#nav-bar a {
+  color: #1e3240;
+}
+
+/* HERO */
+
+#hero-section {
+  margin-top: 5rem;
+  margin-bottom: 25rem;
+  background-color: #afd4e2;
+}
+
+#hero-section h1 {
+  font-weight: bold;
+  font-size: 90px;
+  margin-top: 2rem;
+}
+#hero-section h2 {
+  margin-top: 3rem;
+}
+
+#hero-section .btn {
+  border-radius: 1px;
+  margin-top: 3rem;
+  margin-right: 1rem;
+}
+#hero-section .btn-dark {
+  background: #1e3240;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#hero-section img {
+}
+
+/* ABOUT SECTION */
+
+#about-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  background: white;
+}
+
+#about-section h1 {
+  margin-top: 5rem;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 120%;
+  /* or 58px */
+  color: #1e3240;
+}
+
+#about-section h2 {
+  margin-top: 3rem;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 120%;
+  /* or 22px*/
+  color: #bdbdbd;
+}
+
+/* ONGOING PROJECT SECTION */
+
+.one {
+  margin-right: 50px;
+}
+
+.two {
+  margin-right: 50px;
+}
+
+.three {
+  margin-right: 50px;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonial-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#testimonial-header {
+  height: 92px;
+  margin-bottom: 5rem;
+}
+
+#testimonial-header h1 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+  text-align: center;
+  color: #1e3240;
+}
+
+#testimonial-header h3 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 120%;
+  /* identical to box height, or 22px */
+  text-align: center;
+  color: #1e3240;
+}
+
+.testimonial-right {
+  margin-top: 3rem;
+}
+
+.testimonial-right h1 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  color: #1e3240;
+}
+.testimonial-right p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+  /* or 29px */
+  color: #1e3240;
+  margin-top: 1.5rem;
+}
+.testimonial-right h2 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  /* identical to box height, or 29px */
+  color: #1e3240;
+  margin-top: 1.5rem;
+}
+.testimonial-right h4 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 120%;
+  /* identical to box height, or 22px */
+  color: #1e3240;
+}
+
+/* CONTACT SECTION */
+
+#contact-section {
+  margin-top: 15rem;
+  margin-bottom: 5rem;
+}
+
+#contact-section button {
+  background: #1e3240;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 2rem;
+  border-radius: 1px;
+}
+
+/* FOOTER SECTION */
+
+#footer-section {
+  margin-top: 15rem;
+  margin-bottom: 5rem;
+  background: #1e3240;
+}
+
+i {
+  margin-right: 0.5rem;
+}
+
+#footer-section p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #bdbdbd;
+}
+
+.copyright {
+  margin-top: 10rem;
+}
+
+#footer-section h5 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: white;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+#footer-section h1 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: white;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+#footer-section::before {
+  content: "";
+  background-color: #1e3240;
+  position: absolute;
+  height: 55%;
+  width: 199vw;
+  left: -100vw;
+  z-index: -1;
+}
+/* ----------------------------- MEDIA -----------------------------*/
+
+@media only screen and (max-width: 1024px) {
+  #nav-bar::before {
+    content: "";
+    background-color: #afd4e2;
+    width: 200vw;
+    height: 65%;
+  }
+
+  #hero-section {
+    margin-bottom: 5rem;
+  }
+  #footer-section::before {
+    content: "";
+    background-color: #1e3240;
+    position: absolute;
+    height: 70%;
+    width: 199vw;
+    left: -100vw;
+    z-index: -1;
+  }
+  #footer-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background: #1e3240;
+  }
+}
+
+@media only screen and (max-width: 915px) {
+  #hero-section img {
+    display: none;
+  }
+  #hero-section h1 {
+    font-weight: bold;
+    font-size: 38px;
+    margin-top: -3rem;
+  }
+  #about-section {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    background: white;
+  }
+  #hero-section {
+    padding-bottom: 15px;
+  }
+
+  #nav-bar::before {
+    content: "";
+    background-color: #afd4e2;
+    width: 200vw;
+    height: 60%;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  #contact-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .contact-right {
+    padding-top: 5rem;
+  }
+  #hero-section {
+    margin-top: 1rem;
+  }
+
+  #about-section {
+    margin-top: 10rem;
+  }
+  #about-section img {
+    margin-top: 6rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #hero-section h1 {
+    font-weight: bold;
+    font-size: 38px;
+    margin-top: 3rem;
+  }
+  #testimonial-header {
+    margin-bottom: 1rem;
+  }
+  .testimonial-left img {
+    margin-top: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #contact-section img {
+    margin-top: 5rem;
+  }
+  #contact-section {
+    margin-bottom: -8rem;
+  }
+
+  #contact-section {
+    margin-bottom: 3rem;
+  }
+  .copyright {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  #footer-section::before {
+    content: "";
+    background-color: #1e3240;
+    position: absolute;
+    height: 55%;
+    width: 199vw;
+    left: -100vw;
+    z-index: -1;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  #nav-bar::before {
+    content: "";
+    background-color: #afd4e2;
+    width: 200vw;
+    height: 75%;
+  }
+
+  #hero-section {
+    margin-bottom: 8rem;
+  }
+  .testimonial-left img {
+    margin-top: 5rem;
+  }
+  #footer-section::before {
+    content: "";
+    background-color: #1e3240;
+    position: absolute;
+    height: 90%;
+    width: 199vw;
+    left: -100vw;
+    z-index: -1;
+  }
+  #footer-section {
+    margin-top: 15rem;
+    background: #1e3240;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #nav-bar::before {
+    content: "";
+    background-color: #afd4e2;
+    width: 200vw;
+    height: 65%;
+  }
+}
+
+@media only screen and (max-width: 433px) {
+  #footer-section::before {
+    content: "";
+    background-color: #1e3240;
+    position: absolute;
+    height: 130%;
+    width: 199vw;
+    left: -100vw;
+    z-index: -1;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  #nav-bar::before {
+    content: "";
+    background-color: #afd4e2;
+    width: 200vw;
+    height: 85%;
+  }
+
+  #about-section {
+    margin-top: 1rem;
+  }
+
+  #hero-section {
+    margin-bottom: 9rem;
+  }
+  #footer-section::before {
+    content: "";
+    background-color: #1e3240;
+    position: absolute;
+    height: 100%;
+    width: 199vw;
+    left: -100vw;
+    z-index: -1;
+  }
+  #footer-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background: #1e3240;
+  }
+}
+
+@media only screen and (max-width: 392px) {
+  .testimonial-left img {
+    margin-top: 5rem;
+  }
+  #about-section {
+    margin-top: 12rem;
+  }
+  #nav-bar::before {
+    content: "";
+    background-color: #afd4e2;
+    width: 200vw;
+    height: 80%;
+  }
+  #hero-section {
+    margin-bottom: 5rem;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  #nav-bar::before {
+    content: "";
+    background-color: #afd4e2;
+    width: 200vw;
+    height: 90%;
+  }
+
+  #hero-section {
+    margin-bottom: 2rem;
+  }
+  #about-section {
+    margin-top: 10rem;
+  }
+
+  .testimonial-left img {
+    margin-top: 10rem;
+  }
+  #footer-section::before {
+    content: "";
+    background-color: #1e3240;
+    position: absolute;
+    height: 110%;
+    width: 199vw;
+    left: -100vw;
+    z-index: -1;
+  }
+  #footer-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background: #1e3240;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #nav-bar::before {
+    content: "";
+    background-color: #afd4e2;
+    width: 200vw;
+    height: 130%;
+  }
+
+  #hero-section {
+    margin-bottom: 2rem;
+  }
+  #about-section {
+    margin-top: 1rem;
+  }
+
+  #footer-section::before {
+    content: "";
+    background-color: #1e3240;
+    position: absolute;
+    height: 130%;
+    width: 199vw;
+    left: -100vw;
+    z-index: -1;
+  }
+  #footer-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background: #1e3240;
+  }
+}
+@media only screen and (max-width: 280px) {
+  #nav-bar::before {
+    content: "";
+    background-color: #afd4e2;
+    width: 200vw;
+    height: 115%;
+  }
+  #about-section {
+    margin-top: 5rem;
+  }
+  #hero-section {
+    margin-bottom: 1rem;
+  }
+  #testimonial-section {
+    margin-bottom: 1rem;
+  }
+  #testimonial-section h1 {
+    font-size: 30px;
+  }
+
+  #testimonial-section h3 {
+    font-size: 15px;
+  }
+
+  #testimonial-section p {
+    font-size: 15px;
+  }
+
+  .testimonial-left img {
+    margin-top: 3rem;
+  }
+  #footer-section::before {
+    content: "";
+    background-color: #1e3240;
+    position: absolute;
+    height: 130%;
+    width: 199vw;
+    left: -100vw;
+    z-index: -1;
+  }
+  #footer-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background: #1e3240;
+  }
+  #contact-section {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+  }
+}
