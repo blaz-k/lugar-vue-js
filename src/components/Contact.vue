@@ -1,5 +1,4 @@
 <template>
-  <!--CONTACT START-->
   <div id="contact-section" class="container">
     <div class="row">
       <div class="col-md-6">
@@ -67,8 +66,6 @@
       </div>
     </div>
   </div>
-
-  <!--CONTACT END-->
 </template>
 
 <script>

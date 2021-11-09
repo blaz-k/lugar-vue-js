@@ -1,5 +1,4 @@
 <template>
-  <!--ONGIOING PROJECTS START-->
   <div id="ongoing-projects" class="container">
     <div class="card-group">
       <div class="card one">
@@ -16,7 +15,6 @@
       </div>
     </div>
   </div>
-  <!--ONGIOING PROJECTS END-->
 </template>
 
 <script>

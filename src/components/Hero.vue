@@ -1,5 +1,4 @@
 <template>
-  <!--HERO START-->
   <div class="container">
     <div id="hero-section" class="row">
       <div class="col-md-6">
@@ -13,8 +12,6 @@
       </div>
     </div>
   </div>
-
-  <!--HERO END-->
 </template>
 
 <script>

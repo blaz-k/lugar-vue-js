@@ -1,5 +1,4 @@
 <template>
-  <!--TESTIMONIAL START-->
   <div id="testimonial-section" class="container">
     <div id="testimonial-header">
       <h1>Few smiles and comment</h1>
@@ -20,7 +19,6 @@
       </div>
     </div>
   </div>
-  <!--TESTIMONIAL END-->
 </template>
 
 <script>

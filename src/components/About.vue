@@ -1,5 +1,4 @@
 <template>
-  <!--ABOUT START-->
   <div class="container">
     <div id="about-section" class="row">
       <div class="col-md-6 about-left">
@@ -15,8 +14,6 @@
       </div>
     </div>
   </div>
-
-  <!--ABOUT END-->
 </template>
 
 <script>
