@@ -1,6 +1,10 @@
 <template>
   <!--ONGIOING PROJECTS START-->
+<<<<<<< HEAD
   <div id="ongoing-projects" class="container">
+=======
+  <div id="ongoing-projects">
+>>>>>>> cc298a4acf18de84e3d920d5d6aaf899868fa027
     <div class="card-group">
       <div class="card one">
         <img src="../assets/img/Card-1.png" class="card-img-top" alt="..." />

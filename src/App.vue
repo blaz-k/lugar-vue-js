@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <template >
+=======
+<template>
+>>>>>>> cc298a4acf18de84e3d920d5d6aaf899868fa027
   <Navbar />
   <Hero />
   <About />
@@ -34,6 +38,9 @@ export default {
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+<<<<<<< HEAD
   max-width: 98%;
+=======
+>>>>>>> cc298a4acf18de84e3d920d5d6aaf899868fa027
 }
 </style>

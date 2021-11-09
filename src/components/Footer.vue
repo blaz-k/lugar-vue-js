@@ -1,6 +1,10 @@
 <template>
   <!--FOOTER START-->
+<<<<<<< HEAD
   <div id="footer-section" class="container">
+=======
+  <div id="footer-section">
+>>>>>>> cc298a4acf18de84e3d920d5d6aaf899868fa027
     <footer class="row py-5 my-5 border-top">
       <div class="col">
         <a

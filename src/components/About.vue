@@ -1,6 +1,10 @@
 <template>
   <!--ABOUT START-->
+<<<<<<< HEAD
   <div id="about-section" class="row container">
+=======
+  <div id="about-section" class="row">
+>>>>>>> cc298a4acf18de84e3d920d5d6aaf899868fa027
     <div class="col-md-6 about-left">
       <img src="../assets/img/left-bg.png" alt="" class="img-fluid" />
     </div>
