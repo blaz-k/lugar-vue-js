@@ -1,6 +1,6 @@
 <template>
   <!--CONTACT START-->
-  <div id="contact-section">
+  <div id="contact-section" class="container">
     <div class="row">
       <div class="col-md-6">
         <img src="../assets/img/left.png" alt="" class="img-fluid" />
